@@ -1,0 +1,79 @@
+.advantage {
+    background-image: url(../image/advantages/fon_2.png);
+    background-position: center center;
+    background-size: cover
+}
+
+.advantage-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.advantage-block__item {
+    width: 315px;
+    margin-bottom: 70px
+}
+
+.advantage-block__image {
+    max-width: 60px;
+    margin-right: 15px
+}
+
+.advantage-block__image img {
+    width: 100%
+}
+
+.advantage-block__title {
+    font-family: 'TT Norms Medium';
+    font-weight: 500;
+    font-size: 1.5rem
+}
+
+.advantage-block__description {
+    font-family: 'TT Norms Light';
+    font-size: 0.875rem;
+    padding-bottom: 10px;
+    width: 225px
+}
+
+.advantage-block__text {
+    text-align: center
+}
+
+.item-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media screen and (max-width: 1199.98px) {
+    .advantage-block__item {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%
+    }
+
+    .item-wrap {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .advantage-block__image {
+        margin-right: 5px
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .advantage-block__item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%
+    }
+}

@@ -1,0 +1,9 @@
+/yii/vendor
+composer.phar
+/yii/vagrant
+/yii/phpunit.phar
+/yii/yii
+/yii/yii_test
+/yii/yii_test.bat
+/www/admin/assets
+/www/assets

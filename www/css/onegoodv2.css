@@ -1,0 +1,125 @@
+.goodwrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.onegood__name {
+    font-size: 36px;
+    margin-bottom: 100px;
+    font-family: Proxima Nova Regular, sans-serif
+}
+
+.onegood__description {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.onegood__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 400px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.onegood__img img {
+    height: 300px;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.onegood__info span {
+    max-width: 300px
+}
+
+.onegood__callrequest {
+    margin-top: 15px
+}
+
+.onegood__number {
+    color: black;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.onegood__callback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 20px
+}
+
+.onegood__input {
+    margin: 10px 0;
+    width: 200px;
+    border-bottom: 1px solid #181818;
+    background-color: transparent
+}
+
+.onegood__btnSubm {
+    background-color: #D5B36A;
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none
+}
+
+.imgwrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.privacy__link{
+    color: #181818;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991.98px) {
+    .onegood__name {
+        font-size: 32px
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .goodwrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .onegood__name {
+        text-align: center
+    }
+
+    .onegood__description {
+        margin-top: 30px
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .onegood__name {
+        font-size: 24px
+    }
+
+    .onegood__img img {
+        height: 220px
+    }
+}

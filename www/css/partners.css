@@ -1,0 +1,11 @@
+.clients-block__item, .partners-block__item {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px 30px;
+}
+.clients-wrapper, .partners-wrapper{
+    padding: 50px 0;
+}

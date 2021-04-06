@@ -1,0 +1,59 @@
+.wrapper {
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    min-height: 100vh;
+    /*min-height: 100%;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    padding: 50px 0;
+    font-family: 'TT Norms Regular'
+}
+
+.section-title {
+    font-size: 3rem
+}
+
+.section-title strong {
+    font-weight: normal
+}
+
+.section-title span {
+    font-family: 'Good Vibes Pro Regular';
+    margin-right: 25px
+}
+
+.section__title {
+    text-align: center
+}
+
+.section__subtitle {
+    font-size: 1.125rem;
+    text-align: center;
+    max-width: 660px;
+    margin: 0 auto;
+    margin-bottom: 50px
+}
+
+.button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.button__company,
+.button__info {
+    font-size: 1.1rem;
+    padding: 12px 15px;
+    background-color: #D5B36A;
+    margin: 0 auto
+}
+
+.button__catalog {
+    font-size: 1.5rem;
+    padding: 17px 20px;
+    background-color: #D5B36A;
+    margin: 0 auto
+}

@@ -1,0 +1,181 @@
+.contacts {
+    background-image: url("../image/contacts/bg__contacts.png");
+    color: #ffffff;
+    background-size: cover
+}
+
+.contacts-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 0 50px 0
+}
+
+.contacts-block__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%
+}
+
+.contacts-block__info {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    font-size: 1.125rem
+}
+
+.contacts-block__text {
+    font-size: 1.5rem
+}
+
+.form__input {
+    display: block;
+    margin: 15px 0;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    background-color: transparent;
+    width: 255px;
+}
+
+.form input {
+    padding: 13px 5px;
+    color: #ffffff;
+
+}
+
+.form input::-webkit-input-placeholder {
+    color: #ffffff;
+    -webkit-box-flex: 1.125rem;
+    flex: 1.125rem
+}
+
+.form input::-moz-placeholder {
+    color: #ffffff;
+    flex: 1.125rem
+}
+
+.form input:-ms-input-placeholder {
+    color: #ffffff;
+    -ms-flex: 1.125rem;
+    flex: 1.125rem
+}
+
+.form input::-ms-input-placeholder {
+    color: #ffffff;
+    -ms-flex: 1.125rem;
+    flex: 1.125rem
+}
+
+.form input::placeholder {
+    color: #ffffff;
+    -webkit-box-flex: 1.125rem;
+    -ms-flex: 1.125rem;
+    flex: 1.125rem
+}
+
+.form__button {
+    margin-top: 50px;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    background-color: #D5B36A
+}
+
+.adress,
+.tel,
+.email {
+    margin-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.adress__abb,
+.tel__abb,
+.email__abb {
+    font-size: 1.2rem
+}
+
+.tel__number {
+    margin-right: 5px
+}
+
+.adress,
+.tel,
+.email {
+    margin-bottom: 10px
+}
+
+
+.privacy{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+}
+
+.privacy__text{
+
+}
+.privacy__link{
+text-decoration: underline;
+}
+.form__privacyCheck{
+    margin: 0 5px;
+    width:13px;
+    border: 1px solid #181818;
+    border-radius: 2px;
+}
+
+.field-callrequest-agreement{}
+
+@media screen and (max-width: 991.98px) {
+    .tel__number {
+        margin-right: 0
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .contacts {
+        background-position: 20% 100%
+    }
+
+    .tel-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .contacts {
+        background-position: 35% 100%;
+        background-size: cover
+    }
+
+    .contacts-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 50px 5px 10px 5px
+    }
+
+    .contacts-block__info {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        margin-bottom: 20px
+    }
+}

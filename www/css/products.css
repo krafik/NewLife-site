@@ -1,0 +1,126 @@
+main {
+    position: relative;
+    top: 100px;
+    /*padding-bottom: 100px;*/
+    flex: 1 0 auto;
+    padding-bottom: 100px;
+}
+
+.products-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.products__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 248px;
+    margin: 0 15px 70px 15px
+}
+
+.products__name {
+    text-align: center;
+    margin: 28px 0;
+    height: 44px
+}
+
+.products__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.products__img img {
+    height: 160px;
+    object-fit: contain;
+}
+
+.products__btn {
+    color: black;
+    font-size: 12px;
+}
+
+.items {
+    margin: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    overflow: hidden;
+    background: url("/assets/img/chevron-down.svg") no-repeat right;
+}
+
+.filter__form {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px
+}
+.form__category,.form__manufactury{
+    margin: 0 0 5px 5px;
+}
+.filter__items {
+    width: 225px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.filter__category {
+    font-size: 18px
+}
+.filter-category,.filter-manufactury{
+    margin: 20px 0;
+}
+
+@media (max-width: 1199.98px) {
+    .products-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .products__item {
+        width: 230px
+    }
+
+    .filter__form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .filter__category,
+    .filter__maker {
+        margin-left: 30px
+    }
+}
+
+@media (max-width: 767.98px) {
+    .products__item {
+        width: 230px
+    }
+}
